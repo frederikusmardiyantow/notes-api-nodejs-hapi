@@ -10,6 +10,8 @@ class NotesHandler {
         this.getNoteByIdHandler = this.getNoteByIdHandler.bind(this);
         this.putNoteByIdHandler = this.putNoteByIdHandler.bind(this);
         this.deleteNoteByIdHandler = this.deleteNoteByIdHandler.bind(this);
+        
+        // atau bisa pake auto bind (npm i auto-bind@4) --> untuk lebih detailnya bisa lihat pada Proyek Pertama ->Kriteria Proyek OpenMusic API versi 1
     }
 
     async postNoteHandler(request, h) {
